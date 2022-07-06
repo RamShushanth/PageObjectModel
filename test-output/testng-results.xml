@@ -1,110 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="1" total="10" passed="8">
+<testng-results total="10" passed="7" failed="1" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Free CRM" duration-ms="327245" started-at="2022-07-06T09:39:59Z" finished-at="2022-07-06T09:45:26Z">
+  <suite started-at="2022-07-06T15:13:54Z" name="Free CRM" finished-at="2022-07-06T15:17:14Z" duration-ms="199956">
     <groups>
     </groups>
-    <test name="Acti Time App Test" duration-ms="327245" started-at="2022-07-06T09:39:59Z" finished-at="2022-07-06T09:45:26Z">
+    <test started-at="2022-07-06T15:13:54Z" name="Acti Time App Test" finished-at="2022-07-06T15:17:14Z" duration-ms="199956">
       <class name="com.crm.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@18ce0030]" name="setUp" is-config="true" duration-ms="27513" started-at="2022-07-06T15:09:59Z" finished-at="2022-07-06T15:10:27Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@74ea2410]" started-at="2022-07-06T20:43:54Z" name="setUp" finished-at="2022-07-06T20:44:11Z" duration-ms="17789" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@18ce0030]" name="verifyHomePageTitleTest" duration-ms="11668" started-at="2022-07-06T15:10:27Z" finished-at="2022-07-06T15:10:38Z">
+        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@74ea2410]" started-at="2022-07-06T20:44:11Z" name="verifyHomePageTitleTest" finished-at="2022-07-06T20:44:16Z" duration-ms="4988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@18ce0030]" name="tearDown" is-config="true" duration-ms="1260" started-at="2022-07-06T15:10:38Z" finished-at="2022-07-06T15:10:40Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@74ea2410]" started-at="2022-07-06T20:44:16Z" name="tearDown" finished-at="2022-07-06T20:44:17Z" duration-ms="356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@18ce0030]" name="setUp" is-config="true" duration-ms="21200" started-at="2022-07-06T15:11:59Z" finished-at="2022-07-06T15:12:20Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@74ea2410]" started-at="2022-07-06T20:45:27Z" name="setUp" finished-at="2022-07-06T20:45:45Z" duration-ms="18631" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyUserNameTest()[pri:2, instance:com.crm.qa.testcases.HomePageTest@18ce0030]" name="verifyUserNameTest" duration-ms="8678" started-at="2022-07-06T15:12:20Z" finished-at="2022-07-06T15:12:29Z">
+        <test-method signature="verifyUserNameTest()[pri:2, instance:com.crm.qa.testcases.HomePageTest@74ea2410]" started-at="2022-07-06T20:45:45Z" name="verifyUserNameTest" finished-at="2022-07-06T20:45:51Z" duration-ms="6050" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserNameTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@18ce0030]" name="tearDown" is-config="true" duration-ms="3304" started-at="2022-07-06T15:12:29Z" finished-at="2022-07-06T15:12:32Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@74ea2410]" started-at="2022-07-06T20:45:51Z" name="tearDown" finished-at="2022-07-06T20:45:52Z" duration-ms="299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@18ce0030]" name="setUp" is-config="true" duration-ms="24196" started-at="2022-07-06T15:13:46Z" finished-at="2022-07-06T15:14:10Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@74ea2410]" started-at="2022-07-06T20:46:33Z" name="setUp" finished-at="2022-07-06T20:46:50Z" duration-ms="16447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyTasksLink()[pri:3, instance:com.crm.qa.testcases.HomePageTest@18ce0030]" name="verifyTasksLink" duration-ms="32221" started-at="2022-07-06T15:14:10Z" finished-at="2022-07-06T15:14:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTasksLink -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@18ce0030]" name="tearDown" is-config="true" duration-ms="1491" started-at="2022-07-06T15:14:43Z" finished-at="2022-07-06T15:14:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.HomePageTest -->
-      <class name="com.crm.qa.testcases.TasksPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@45b9a632]" name="setUp" is-config="true" duration-ms="22246" started-at="2022-07-06T15:10:59Z" finished-at="2022-07-06T15:11:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyTasksPageLabel()[pri:1, instance:com.crm.qa.testcases.TasksPageTest@45b9a632]" name="verifyTasksPageLabel" duration-ms="170" started-at="2022-07-06T15:11:21Z" finished-at="2022-07-06T15:11:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTasksPageLabel -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@45b9a632]" name="tearDown" is-config="true" duration-ms="810" started-at="2022-07-06T15:11:21Z" finished-at="2022-07-06T15:11:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@45b9a632]" name="setUp" is-config="true" duration-ms="44810" started-at="2022-07-06T15:12:50Z" finished-at="2022-07-06T15:13:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="selectSingleTasksCheckBox()[pri:2, instance:com.crm.qa.testcases.TasksPageTest@45b9a632]" name="selectSingleTasksCheckBox" duration-ms="9956" started-at="2022-07-06T15:13:35Z" finished-at="2022-07-06T15:13:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectSingleTasksCheckBox -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@45b9a632]" name="tearDown" is-config="true" duration-ms="1412" started-at="2022-07-06T15:13:45Z" finished-at="2022-07-06T15:13:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@45b9a632]" name="setUp" is-config="true" duration-ms="0" started-at="2022-07-06T15:15:02Z" finished-at="2022-07-06T15:15:02Z">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method signature="verifyTasksLink()[pri:3, instance:com.crm.qa.testcases.HomePageTest@74ea2410]" started-at="2022-07-06T20:46:50Z" name="verifyTasksLink" finished-at="2022-07-06T20:46:56Z" duration-ms="6183" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[timeout: Timed out receiving message from renderer: 11.661
+              <![CDATA[element click intercepted: Element <div id="container_tasks"></div> is not clickable at point (630, 45). Other element would receive the click: <div id="preInsertedTransformedMoireId" class="transformedMoireClass" style="transition: opacity 600ms ease-in-out 0s; opacity: 0;"></div>
   (Session info: chrome=103.0.5060.114)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PGP9JNA', ip: '192.168.51.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+System info: host: 'DESKTOP-PGP9JNA', ip: '192.168.51.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54221}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2a81b9156f8a4d7350df85cf6c920af5]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58850}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cb7f993dcbcf9438b6212c68368a5aae]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 11.661
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div id="container_tasks"></div> is not clickable at point (630, 45). Other element would receive the click: <div id="preInsertedTransformedMoireId" class="transformedMoireClass" style="transition: opacity 600ms ease-in-out 0s; opacity: 0;"></div>
   (Session info: chrome=103.0.5060.114)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PGP9JNA', ip: '192.168.51.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+System info: host: 'DESKTOP-PGP9JNA', ip: '192.168.51.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54221}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2a81b9156f8a4d7350df85cf6c920af5
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58850}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cb7f993dcbcf9438b6212c68368a5aae
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at com.crm.qa.base.TestBase.intialization(TestBase.java:47)
-	at com.crm.qa.testcases.TasksPageTest.setUp(TasksPageTest.java:25)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+	at com.crm.qa.pages.HomePage.clickOnTasksLink(HomePage.java:37)
+	at com.crm.qa.testcases.HomePageTest.verifyTasksLink(HomePageTest.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTasksLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@74ea2410]" started-at="2022-07-06T20:46:56Z" name="tearDown" finished-at="2022-07-06T20:46:56Z" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.TasksPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@76b1e9b8]" started-at="2022-07-06T20:44:32Z" name="setUp" finished-at="2022-07-06T20:44:55Z" duration-ms="22932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTasksPageLabel()[pri:1, instance:com.crm.qa.testcases.TasksPageTest@76b1e9b8]" started-at="2022-07-06T20:44:55Z" name="verifyTasksPageLabel" finished-at="2022-07-06T20:44:55Z" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTasksPageLabel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@76b1e9b8]" started-at="2022-07-06T20:44:55Z" name="tearDown" finished-at="2022-07-06T20:44:55Z" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@76b1e9b8]" started-at="2022-07-06T20:46:08Z" name="setUp" finished-at="2022-07-06T20:46:08Z" duration-ms="0" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div id="container_tasks"></div> is not clickable at point (630, 45). Other element would receive the click: <div id="preInsertedTransformedMoireId" class="transformedMoireClass" style="transition: opacity 600ms ease-in-out 0s; opacity: 0;"></div>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PGP9JNA', ip: '192.168.51.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58820}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e5416b98dc7655a81c1936eb441ca523]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div id="container_tasks"></div> is not clickable at point (630, 45). Other element would receive the click: <div id="preInsertedTransformedMoireId" class="transformedMoireClass" style="transition: opacity 600ms ease-in-out 0s; opacity: 0;"></div>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PGP9JNA', ip: '192.168.51.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58820}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e5416b98dc7655a81c1936eb441ca523
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+	at com.crm.qa.pages.HomePage.clickOnTasksLink(HomePage.java:37)
+	at com.crm.qa.testcases.TasksPageTest.setUp(TasksPageTest.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
@@ -129,135 +179,79 @@ Session ID: 2a81b9156f8a4d7350df85cf6c920af5
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="selectMultiTasksCheckBox()[pri:3, instance:com.crm.qa.testcases.TasksPageTest@45b9a632]" name="selectMultiTasksCheckBox" duration-ms="2" started-at="2022-07-06T15:15:26Z" finished-at="2022-07-06T15:15:26Z">
+        <test-method signature="selectSingleTasksCheckBox()[pri:2, instance:com.crm.qa.testcases.TasksPageTest@76b1e9b8]" started-at="2022-07-06T20:46:33Z" name="selectSingleTasksCheckBox" finished-at="2022-07-06T20:46:33Z" duration-ms="12" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSingleTasksCheckBox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@76b1e9b8]" started-at="2022-07-06T20:46:33Z" name="tearDown" finished-at="2022-07-06T20:46:33Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@76b1e9b8]" started-at="2022-07-06T20:47:14Z" name="setUp" finished-at="2022-07-06T20:47:14Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectMultiTasksCheckBox()[pri:3, instance:com.crm.qa.testcases.TasksPageTest@76b1e9b8]" started-at="2022-07-06T20:47:14Z" name="selectMultiTasksCheckBox" finished-at="2022-07-06T20:47:14Z" duration-ms="2" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectMultiTasksCheckBox -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@45b9a632]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-07-06T15:15:26Z" finished-at="2022-07-06T15:15:26Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.TasksPageTest@76b1e9b8]" started-at="2022-07-06T20:47:14Z" name="tearDown" finished-at="2022-07-06T20:47:14Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.crm.qa.testcases.TasksPageTest -->
       <class name="com.crm.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4445629]" name="setUp" is-config="true" duration-ms="18488" started-at="2022-07-06T15:10:40Z" finished-at="2022-07-06T15:10:58Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@17f62e33]" started-at="2022-07-06T20:44:17Z" name="setUp" finished-at="2022-07-06T20:44:31Z" duration-ms="14764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@4445629]" name="loginPageTitleTest" duration-ms="19" started-at="2022-07-06T15:10:58Z" finished-at="2022-07-06T15:10:58Z">
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@17f62e33]" started-at="2022-07-06T20:44:31Z" name="loginPageTitleTest" finished-at="2022-07-06T20:44:32Z" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4445629]" name="tearDown" is-config="true" duration-ms="769" started-at="2022-07-06T15:10:58Z" finished-at="2022-07-06T15:10:59Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@17f62e33]" started-at="2022-07-06T20:44:32Z" name="tearDown" finished-at="2022-07-06T20:44:32Z" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4445629]" name="setUp" is-config="true" duration-ms="16868" started-at="2022-07-06T15:12:32Z" finished-at="2022-07-06T15:12:49Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@17f62e33]" started-at="2022-07-06T20:45:52Z" name="setUp" finished-at="2022-07-06T20:46:07Z" duration-ms="15764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="actiTimeLogoTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@4445629]" name="actiTimeLogoTest" duration-ms="114" started-at="2022-07-06T15:12:49Z" finished-at="2022-07-06T15:12:49Z">
+        <test-method signature="actiTimeLogoTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@17f62e33]" started-at="2022-07-06T20:46:07Z" name="actiTimeLogoTest" finished-at="2022-07-06T20:46:07Z" duration-ms="44" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- actiTimeLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4445629]" name="tearDown" is-config="true" duration-ms="1035" started-at="2022-07-06T15:12:49Z" finished-at="2022-07-06T15:12:50Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@17f62e33]" started-at="2022-07-06T20:46:07Z" name="tearDown" finished-at="2022-07-06T20:46:08Z" duration-ms="211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4445629]" name="setUp" is-config="true" duration-ms="16150" started-at="2022-07-06T15:14:44Z" finished-at="2022-07-06T15:15:00Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@17f62e33]" started-at="2022-07-06T20:46:56Z" name="setUp" finished-at="2022-07-06T20:47:12Z" duration-ms="15646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@4445629]" name="loginTest" duration-ms="1325" started-at="2022-07-06T15:15:00Z" finished-at="2022-07-06T15:15:02Z">
+        <test-method signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@17f62e33]" started-at="2022-07-06T20:47:12Z" name="loginTest" finished-at="2022-07-06T20:47:13Z" duration-ms="1282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@4445629]" name="tearDown" is-config="true" duration-ms="875" started-at="2022-07-06T15:15:02Z" finished-at="2022-07-06T15:15:02Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@17f62e33]" started-at="2022-07-06T20:47:13Z" name="tearDown" finished-at="2022-07-06T20:47:14Z" duration-ms="300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.crm.qa.testcases.LoginPageTest -->
       <class name="com.crm.qa.testcases.createNewCustomerTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.createNewCustomerTest@25d250c6]" name="setUp" is-config="true" duration-ms="22687" started-at="2022-07-06T15:11:22Z" finished-at="2022-07-06T15:11:45Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.createNewCustomerTest@27406a17]" started-at="2022-07-06T20:44:55Z" name="setUp" finished-at="2022-07-06T20:45:24Z" duration-ms="28466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="addCustomerTest()[pri:1, instance:com.crm.qa.testcases.createNewCustomerTest@25d250c6]" name="addCustomerTest" duration-ms="12281" started-at="2022-07-06T15:11:45Z" finished-at="2022-07-06T15:11:57Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='ShuhsanthRam1' and @class = 'title']"}
-  (Session info: chrome=103.0.5060.114)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PGP9JNA', ip: '192.168.51.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 34c90e61a19504341cb58e337655676b
-*** Element info: {Using=xpath, value=//div[text()='ShuhsanthRam1' and @class = 'title']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='ShuhsanthRam1' and @class = 'title']"}
-  (Session info: chrome=103.0.5060.114)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-PGP9JNA', ip: '192.168.51.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 34c90e61a19504341cb58e337655676b
-*** Element info: {Using=xpath, value=//div[text()='ShuhsanthRam1' and @class = 'title']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
-	at com.crm.qa.pages.Tasks.verifyNewCustomer(Tasks.java:34)
-	at com.crm.qa.testcases.createNewCustomerTest.addCustomerTest(createNewCustomerTest.java:40)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="addCustomerTest()[pri:1, instance:com.crm.qa.testcases.createNewCustomerTest@27406a17]" started-at="2022-07-06T20:45:24Z" name="addCustomerTest" finished-at="2022-07-06T20:45:26Z" duration-ms="2697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.createNewCustomerTest@25d250c6]" name="tearDown" is-config="true" duration-ms="1670" started-at="2022-07-06T15:11:57Z" finished-at="2022-07-06T15:11:59Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.createNewCustomerTest@27406a17]" started-at="2022-07-06T20:45:26Z" name="tearDown" finished-at="2022-07-06T20:45:27Z" duration-ms="374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

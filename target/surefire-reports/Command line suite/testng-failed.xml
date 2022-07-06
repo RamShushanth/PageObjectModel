@@ -1,30 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="none" name="Failed suite [Free CRM]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.crm.qa.extentReportListener.ExtentReportListener"/>
-  </listeners>
-  <test name="Acti Time App Test" verbose="2">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test name="Command line test" preserve-order="false">
     <classes>
+      <class name="com.crm.qa.testcases.createNewCustomerTest"/>
       <class name="com.crm.qa.testcases.HomePageTest"/>
       <class name="com.crm.qa.testcases.LoginPageTest"/>
       <class name="com.crm.qa.testcases.TasksPageTest"/>
-      <class name="com.crm.qa.testcases.createNewCustomerTest"/>
     </classes>
-  </test> <!-- Acti Time App Test -->
-  <test parallel="none" name="Acti Time App Test(failed)">
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.TasksPageTest">
-        <methods>
-          <include name="selectMultiTasksCheckBox"/>
-          <include name="selectSingleTasksCheckBox"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.crm.qa.testcases.TasksPageTest -->
       <class name="com.crm.qa.testcases.HomePageTest">
         <methods>
-          <include name="verifyTasksLink"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
@@ -33,8 +21,17 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="addCustomerTest"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.createNewCustomerTest -->
+      <class name="com.crm.qa.testcases.TasksPageTest">
+        <methods>
+          <include name="selectMultiTasksCheckBox"/>
+          <include name="selectSingleTasksCheckBox"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.TasksPageTest -->
       <class name="com.crm.qa.testcases.LoginPageTest">
         <methods>
           <include name="setUp"/>
@@ -42,5 +39,5 @@
         </methods>
       </class> <!-- com.crm.qa.testcases.LoginPageTest -->
     </classes>
-  </test> <!-- Acti Time App Test(failed) -->
-</suite> <!-- Failed suite [Free CRM] -->
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
